@@ -1,0 +1,67 @@
+.form-ppdb {
+	margin-top: 100px;
+}
+
+.first-form input {
+	width: 70%;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px rgb(113, 113, 231) solid;
+	outline: none;
+}
+
+.second-form textarea {
+	border: 2px rgb(113, 113, 231) solid;
+	padding: 10px;
+	border-radius: 10px;
+	width: 70%;
+	outline: none;
+}
+
+.jenis-kelamin,
+.agama,
+.know-from {
+	padding: 20px;
+	border: 2px rgb(113, 113, 231) solid;
+	border-radius: 10px;
+	margin: 20px 0;
+}
+
+.jenis-kelamin {
+	height: 50px;
+}
+
+.jenis-kelamin label,
+.jenis-kelamin label {
+	margin-left: 20px;
+}
+
+.agama select,
+.know-from select {
+	width: 200px;
+	padding: 5px;
+	border: 2px rgb(113, 113, 231) solid;
+	border-radius: 10px;
+	margin: 20px 0;
+}
+
+.agama input,
+.know-from input {
+	width: 200px;
+	padding: 5px;
+	border: 2px rgb(113, 113, 231) solid;
+	border-radius: 10px;
+	margin: 20px 0;
+	outline: none;
+}
+
+.checkbox {
+	width: 15px !important;
+}
+
+.form-ppdb .btn-form-submit {
+	padding: 10px 0;
+	background-color: rgb(113, 113, 231) !important;
+	border: none;
+	border-radius: 10px;
+}

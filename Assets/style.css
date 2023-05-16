@@ -1,0 +1,521 @@
+/* Khula fonts */
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&display=swap');
+
+
+body {
+    font-family: 'Khula', sans-serif;
+    overflow-x: hidden;
+    background-color: #F7F7F9;
+}
+
+/* all css */
+.btn {
+    font-family: 'Khula', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 20px 120px;
+    background-color: transparent !important;
+    border-bottom: 0.1px solid rgb(228, 227, 227);
+}
+
+.navbar img {
+    width: 41px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.navbar-nav a {
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.navbar-nav a:hover {
+    color: rgb(26, 26, 26);
+}
+
+.navbar-nav .btn {
+    padding-top: 8px;
+    background-color: #20388C !important;
+    border-color: #20388C;
+    border-radius: 60px;
+    margin-left: 20px;
+    width: 107px;
+    height: 38px;
+    font-family: 'Khula', sans-serif;
+}
+
+/* End */
+
+/* Jumbotron */
+.jumbotron {
+    height: 100vh;
+}
+
+.jumbotron h1 {
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.jumbotron img {
+    position: relative;
+    width: 70rem;
+    left: -460px;
+    top: 50px;
+    z-index: -1;
+}
+
+.logo-homepage {
+    display: none;
+}
+
+.jumbotron .btn {
+    width: 135px;
+    background-color: transparent !important;
+    border-color: #20388C;
+    border-radius: 12px;
+}
+
+.jumbotron .btn-contact {
+    color: #20388C;
+    padding-top: 8px;
+}
+
+.jumbotron .btn-contact:hover {
+    background-color: #20388C !important;
+    filter: drop-shadow(0px 12px 16px rgba(32, 56, 140, 0.41));
+    color: white;
+    transition: 0.2s;
+    transform: translateY(-5%);
+}
+
+.jumbotron .btn-OurSch {
+    padding-top: 8px;
+    margin-left: 15px;
+    background-color: #20388C !important;
+}
+
+.jumbotron .btn-OurSch:hover {
+    filter: drop-shadow(0px 12px 16px rgba(32, 56, 140, 0.41));
+    transition: 0.2s;
+    transform: translateY(-5%);
+}
+
+/* End */
+
+/* Bar info */
+.barInfo {
+    background-color: #D5DFF1;
+    height: 175px;
+    border-radius: 31px;
+    width: 1030px;
+    filter: drop-shadow(0px 11px 45px rgba(0, 0, 0, 0.1));
+    padding: 47px;
+    margin: 150px;
+}
+
+.barInfo img {
+    margin-right: 10px;
+    margin-left: -17px;
+    width: 80px;
+    height: 80px;
+}
+
+.barInfo h4 {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.barInfo .line {
+    background-color: #6276c0;
+    height: 80px;
+    width: 4px;
+    margin-left: 50px;
+}
+
+/* End */
+
+
+/* kepala sekolah page */
+.kepala-sekolah {
+    height: 100vh;
+    margin-top: 10rem;
+    padding: 50px 0;
+}
+
+/* End */
+
+/* Jurusan */
+
+.jurusan {
+    padding-bottom: 500px;
+}
+
+.jurusan .card {
+    width: 362px;
+    height: 454px;
+    padding: 30px 30px;
+    border-radius: 13px;
+    border: none;
+}
+
+.jurusan .card:hover {
+    /* background-color: #3c53a7; */
+    background-color: #217ACD;
+    box-shadow: 0px 1px 30px rgba(33, 85, 205, 0.77);
+    border-radius: 13px;
+    color: white;
+    transition: 0.5s;
+    transform: translateY(-1%);
+}
+
+.jurusan .card img {
+    width: 81px;
+    margin: auto;
+}
+
+.jurusan .card .btn {
+    width: 135px;
+    height: 38px;
+    padding-top: 8px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    border-color: #20388C;
+    color: #20388C;
+}
+
+
+/* End */
+
+
+/* Daftar footer */
+.daftar-footer {
+    height: 128px;
+    background-color: #20388C;
+    position: relative;
+}
+
+.daftar-footer .btn {
+    padding-top: 8px;
+    background-color: white !important;
+    border-color: #20388C;
+    color: #20388C;
+    border-radius: 60px;
+    margin-left: 20px;
+    width: 107px;
+    height: 38px;
+    font-family: 'Khula', sans-serif;
+    z-index: 1;
+}
+
+.daftar-footer img {
+    position: absolute;
+    left: 330px;
+    top: -350px;
+    width: 60rem;
+}
+
+/* End */
+
+/* alamat */
+.alamat {
+    height: 388px;
+    padding: 70px 0;
+}
+
+.alamat img {
+    width: 65px;
+}
+
+
+.alamat a {
+    text-decoration: none;
+    color: black;
+}
+
+.alamat .CTA-page {
+    justify-content: end;
+    margin-top: -100px;
+}
+
+/* End */
+
+
+/* footer */
+footer {
+    height: 54.5px;
+    background-color: #20388C;
+    padding: 15px 0;
+}
+
+footer p{
+    margin-left: 300px;
+}
+
+footer img {
+    margin-left: 10px;
+}
+
+/* End */
+
+/* scroll top */
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: rgb(107, 90, 210);
+    opacity: 0.8;
+    padding: 6px 6px 0 6px;
+    border-radius: 0.4rem;
+    z-index: 10;
+    transition: 0.4s;
+}
+
+.scrollup:hover {
+    background-color: rgb(88, 72, 173);
+}
+
+.scrollup_icon {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.show-scroll {
+    bottom: 5rem;
+}
+
+/* end */
+
+
+/* Indikator */
+.indikator {
+    position: fixed;
+    z-index: 10;
+    left: 50px;
+    bottom: 200px;
+}
+
+.indikator a {
+    width: 15px;
+    height: 15px;
+    margin-top: 14px;
+    border-radius: 50%;
+    /* background-color: #F7F7F9; */
+    border: 2px solid #20388C;
+}
+
+.indikator a:hover {
+    background-color: #20388C;
+    height: 24px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+/* End */
+
+
+/* Break point */
+/* Tablet */
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {}
+
+/* End */
+
+/* phone */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 10px 5px;
+    }
+
+    .navbar-nav {
+        padding: 10px;
+    }
+
+    .navbar-nav a {
+        border-bottom: 0.1px solid rgb(228, 227, 227);
+    }
+
+    .navbar-nav .btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /* End */
+
+
+    /* Jumbotron */
+
+    .jumbotron {
+        text-align: center;
+    }
+
+    .jumbotron img {
+        display: none;
+    }
+
+    .logo-homepage {
+        display: block !important;
+        position: static !important;
+        margin: auto;
+        margin-top: 50px;
+        width: 67px !important;
+    }
+
+    .jumbotron h1 {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+
+    /* End */
+
+
+    /* Bar info */
+    .barInfo {
+        width: 216px;
+        height: 469px;
+        margin-top: -50px;
+    }
+
+    .barInfo .line {
+        width: 60px;
+        height: 3px;
+        margin-left: 40px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .barInfo img .barInfo .info-mobile {
+        display: flex;
+    }
+
+    /* End */
+
+    /* Kepala sekolah */
+    .kepala-sekolah {
+        text-align: center;
+        padding: 25px;
+    }
+
+    .kepala-sekolah h3 {
+        position: relative;
+        top: -390px;
+    }
+
+    .kepala-sekolah p {
+        margin-top: 30px;
+    }
+
+    /* End */
+
+    /* Jurusan */
+    .jurusan h3 {
+        font: 21px;
+    }
+
+    .jurusan .card {
+        height: 400px;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .jurusan .card h5 {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .jurusan .card p {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .jurusan .btn {
+        width: 112px;
+        height: 32px;
+        margin: 20px 0;
+    }
+    /* End */
+
+    /* Daftar Footer */
+    .daftar-footer {
+        height: auto;
+    }
+
+    .daftar-footer .mobile {
+        flex-direction: column;
+    }
+
+    .daftar-footer .mobile h3 {
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+
+    .daftar-footer img {
+        display: none;
+    }
+    /* End */
+
+    /* alamat */
+    .alamat {
+        padding: 25px;
+    }
+
+    .alamat img {
+        width: 54px;
+    }
+
+    .alamat h3 {
+        font-size: 22px;
+    }
+    .alamat .mobile {
+        font-size: 12px;
+    }
+
+    .alamat h5 {
+        font-size: 18px;
+    }
+
+    .alamat ul li a {
+        font-size: 14px;
+    }
+
+    .alamat .CTA-page {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+        margin-top: 0;
+    }
+    /* End */
+
+    /* footer */
+
+    footer {
+        height: auto;
+    }
+    footer p {
+        font-size: 10px;
+        margin-left: 0;
+    }
+    footer .social-media {
+        margin-left: 0;
+    }
+    /* End */
+
+
+    /* Indikator */
+    .indikator {
+        display: none !important;
+    }
+
+    /* End */
+
+}
+
+/* end */
+
+/* End */
